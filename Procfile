@@ -1,1 +1,1 @@
-web: java -Dserver.port=8080 -jar phonebook-api/build/libs/com-byteflair-phonebook-api-0.1.0.jar
+web: java -Dserver.port=$PORT -jar phonebook-api/build/libs/com-byteflair-phonebook-api-0.1.0.jar
